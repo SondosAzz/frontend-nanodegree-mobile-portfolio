@@ -43,15 +43,3 @@ for (var i = 0; i < randomPizzas.length; i++) {
 }
 ```
  to  the `sizeSwitcher (size)` function.
-
-
-
-
-
-
-
-### Customization with Bootstrap
-The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstrap</a> framework. All custom styles are in `dist/css/portfolio.css` in the portfolio repo.
-
-* <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
-* <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
