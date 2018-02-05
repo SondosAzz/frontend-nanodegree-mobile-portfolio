@@ -500,8 +500,8 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover');
-  // document.body.scrollTop is no longer supported in Chrome.
-var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  // moving scrollTop out of the loop to stop FSL problem
+  var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 
   for (var i = 0; i < items.length; i++) {
 
